@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* End Reset - My Code */
+
+@font-face {
+	src: url(fonts/Katherine.otf);
+	font-family: kath;}
+@font-face {
+	src: url(fonts/Oranienbaum.ttf);
+	font-family: oran; }
+@font-face {
+	src: url(fonts/Voga-Medium.otf);
+	font-family: voga;
+}
+/* Font Types */
+
+.homeimage{
+	width: auto;
+	height: 500px;
+	position: fixed;
+  	top: 40%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	padding:5px;
+   	border:6px solid #c8967a;
+   	border-radius: 20px 120px 20px 120px;
+   	background-color: #e6d4cb
+}
+.logo {
+	height: 75px;
+	width: auto;
+}
+a {
+	text-decoration: none;
+	text-decoration-style: none;
+	color: inherit;
+}
+a:hover {
+	color: #c8967a;
+}
+h1 {
+	font-family: kath;
+	font-size:60px;
+	color: #fff;
+	text-align: left;
+	text-indent: 20px;
+}
+h2 {
+	color: #fff;
+}
+h3 {
+	font-family: voga;
+	color: #c8967a;
+	text-align: center;
+	text-decoration: underline;
+	padding right: 10px
+}
+nav{
+  display:flex;
+  width: 100%;
+  height: 90px;
+  background: #000;
+  align-items: center;
+  justify-content: center;
+font-size: 30px;
+position: fixed;
+}
+nav {  border-bottom: 5px solid #e6d4cb;
+  	}
+.nav{
+  text-decoration: none;
+  color: #fff;
+  font-family: voga;
+  font size: 40px;
+  margin: 70px;
+ }
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	color: #fff;
+}
+.icon_bottom {
+ 	margin-top: 48%;
+ 	display: inline-block;
+    width: 35px;
+    height: auto;
+ }
+.icon_bottom2 {
+ 	display: inline-block;
+    width: 35px;
+    height: auto;
+    margin-left: 45%;
+}
+.contact {
+	display: block;
+	text-align: center;
+	border-radius: 10px;
+}
