@@ -25,8 +25,8 @@ time, mark, audio, video {
 /* End Reset - My Code */
 
 @font-face {
-	src: url(fonts/Katherine.otf);
-	font-family: kath;}
+	src: url(fonts/tahu.ttf);
+	font-family: tahu;}
 @font-face {
 	src: url(fonts/Oranienbaum.ttf);
 	font-family: oran; }
@@ -36,18 +36,6 @@ time, mark, audio, video {
 }
 /* Font Types */
 
-.homeimage{
-	width: auto;
-	height: 500px;
-	position: fixed;
-  	top: 40%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  	padding:5px;
-   	border:6px solid #c8967a;
-   	border-radius: 20px 120px 20px 120px;
-   	background-color: #e6d4cb
-}
 .logo {
 	height: 75px;
 	width: auto;
@@ -58,64 +46,139 @@ a {
 	color: inherit;
 }
 a:hover {
-	color: #c8967a;
+	color: #f8c8a4;
 }
-h1 {
-	font-family: kath;
-	font-size:60px;
-	color: #fff;
-	text-align: left;
-	text-indent: 20px;
-}
-h2 {
-	color: #fff;
-}
-h3 {
-	font-family: voga;
-	color: #c8967a;
+
+header {
+	display: inline-block;
 	text-align: center;
+ 	background-color: #fff;
+ 	font-family: oran;
+ 	font-size: 30px;
+ 	color: #4f919a;
+ 	padding:10px;
+ 	width: 100%;
+}
+
+.heading {
+	color: #f8c8a4;
+	text-shadow: 2px;
 	text-decoration: underline;
-	padding right: 10px
 }
-nav{
-  display:flex;
-  width: 100%;
-  height: 90px;
-  background: #000;
-  align-items: center;
-  justify-content: center;
-font-size: 30px;
-position: fixed;
-}
-nav {  border-bottom: 5px solid #e6d4cb;
-  	}
-.nav{
-  text-decoration: none;
+
+.jmport {
+  text-align: right;
   color: #fff;
-  font-family: voga;
-  font size: 40px;
-  margin: 70px;
- }
+  font-family:oran;
+  font-size: 40px;
+  margin-right: 70px;
+}
+
+ul li {
+ 	display: block;
+ 	padding-left: 20px;
+}
+
+nav a {
+  margin: 40px
+}
+
 body {
-	width: 100%;
-	height: 100%;
-	background-color: #000;
-	color: #fff;
+	font-family: oran;
+	background-color: #75cbd6;
+	color: #000;
 }
+
+main {
+  width: 80vw;
+  margin: auto;
+  padding: 30px 20px;
+  min-height: calc(100vh - 105px - 98px);
+}
+article {
+  background-color: #f8c8a4;
+  padding:40px;
+  margin-bottom: 10px;
+  border-radius:10px;
+}
+article h2 {
+  margin: 10px 0 15px 0;
+  font-size: 30px;
+}
+article h3 {
+  margin: 10px 0 25px 0;
+  font-size: 20px;
+}
+ article p {
+  margin-top: ;
+  line-height: 24px;
+}
+
+footer {
+  text-align: center;
+}
+
 .icon_bottom {
- 	margin-top: 48%;
  	display: inline-block;
     width: 35px;
     height: auto;
  }
-.icon_bottom2 {
- 	display: inline-block;
-    width: 35px;
-    height: auto;
-    margin-left: 45%;
+
+ .camera {
+ 	height: 420px;
+ 	width: auto;
+  float:right;
+  margin: 10px;
+ }
+
+ .portrait {
+  height: 400px;
+  width: auto;
+  float:left;
+  margin:10px;
+
+ }
+
+ .review {
+ 	font-size: 150px;
+ 	line-height: 150px;
+ 	text-align: left;
+ 	color: #fff;
+ 	font-family: tahu;
+ 	padding: 20px;
+ 	margin-top:50px;
 }
-.contact {
-	display: block;
-	text-align: center;
-	border-radius: 10px;
+ .review1 {
+ 	animation-name: reviewone;
+  	animation-duration: 3s;
+  	animation-direction: reverse;
+ }
+
+ .review2 {
+ 	text-align: right;
+ 	animation-name: reviewtwo;
+  	animation-duration: 3s;
+  	animation-direction: reverse;
+    animation-delay: 3s;
 }
+
+.review3 {
+ 	animation-name: reviewthree;
+  	animation-duration: 3s;
+  	animation-direction: reverse;
+    animation-delay: 6s;
+}
+
+
+@keyframes reviewone {
+  from {color: #75cbd6;}
+  to {color: white;}
+}
+@keyframes reviewtwo {
+  from {color: #75cbd6;}
+  to {color: white;}
+}
+@keyframes reviewthree {
+  from {color: #75cbd6;}
+  to {color: white;}
+  }
