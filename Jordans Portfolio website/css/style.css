@@ -1,0 +1,296 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* End Reset - My Code */
+
+@font-face {
+	src: url(../fonts/tahu.ttf);
+	font-family: tahu;}
+@font-face {
+	src: url(../fonts/Oranienbaum.ttf);
+	font-family: oran; }
+@font-face {
+	src: url(../fonts/Voga-Medium.otf);
+	font-family: voga;
+}
+@font-face {
+  src: url(../fonts/Katherine.otf);
+  font-family: kat;
+}
+/* Font Types */
+
+.logo {
+	height: 75px;
+	width: auto;
+  margin:0 20px 0px 20px;
+}
+.lrlogo {
+  height: 75px;
+  width: auto;
+  margin:0px 20px -15px 20px;
+  }
+.aboutlogo {
+  height: 45px;
+  width: auto;
+  margin:0px 10px 0px 40px;
+  }
+a {
+	text-decoration: none;
+	text-decoration-style: none;
+	color: inherit;
+}
+
+.aboutpic {
+  height: 350px;
+  width: auto;
+  margin: 20px;
+  float: right;
+  border-radius: 10px;
+
+
+}
+
+.headerpic {
+  width:100%;
+  height: auto;
+  position:initial;
+  }
+
+.jmport {
+  text-align: right;
+  color: #fff;
+  font-family:kat;
+  font-size: 65px;
+  margin-right: 6vw;
+
+}
+
+.eventlist{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+body {
+	font-family: oran;
+	background-color: #afbdbb;
+	color: #000;
+
+}
+
+.index {
+  background-image: url(../img/prague.jpg);
+  background-size: contain;
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+
+main {
+  width: 90vw;
+  margin: auto;
+  padding: 30px 20px;
+  min-height: calc(100vh - 85px - 98px);
+}
+
+section {
+  padding:20px;
+  margin-bottom: 10px;
+  border-radius:5px;
+  font-size: 17px;
+  text-align: center;
+  background: rgba(255,255,255, 1);
+
+}
+
+h4 {
+  font-size: 20px;
+  color: #004c46;
+  font-style: italic;
+  margin: 20px;
+}
+
+section h2 {
+  font-size: 30px;
+  color: #DC143C;
+  font-weight: 800;
+}
+strong {
+  font-weight: 800;
+}
+article {
+  background-color: #e4e2dc;
+  padding:30px;
+  border-radius:5px;
+
+
+}
+article h2 {
+  margin: 10px 20px 15px 20px;
+  font-size: 30px;
+  color: #004c31;
+}
+article h3 {
+  margin: 10px 0 10px 20px;
+  font-size: 20px;
+}
+
+article p {
+  margin: 10px 0 25px 20px;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 10px;
+  text-indent: 25px;
+}
+
+footer {
+  text-align: center;
+}
+
+
+
+.icon_bottom {
+ 	display: inline-block;
+  width: 20px;
+  height: auto;
+  padding: 3px;
+ }
+
+ .icon_contact {
+  display: inline-block;
+  width: 15px;
+  height: auto;
+  padding: 0px 10px 0px 10px;
+ }
+
+.brand {
+  height: 6vw;
+  padding: 0px 30px 30px 30px;
+  text-align: center;
+  margin-left:100px;
+  margin-top:-50px;
+
+}
+ .back {
+  margin-top: 40vh;
+  padding: 10px;
+  position: fixed;
+  background-color: #e4e2dc;
+ }
+
+ .bk-button {
+  height:auto;
+  width: 4vw;
+}
+ .portrait {
+  height: 400px;
+  width: auto;
+  float:left;
+  margin:10px;
+  padding: 20px;
+
+ }
+
+ .hometext {
+ 	font-size: 100px;
+ 	color: #fff;
+ 	font-family: voga;
+ 	padding: 10px;
+ 	margin-top:10px;
+}
+ .homepage {
+  font-size: 60px;
+  line-height: 100px;
+  color: #000;
+  font-family: oran;
+/*  text-shadow: -2px 2px #fff;*/
+  padding: 10px;
+  margin-top:30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.preset { 
+background-color: white;
+text-align: center; }
+
+.underline {
+  text-decoration: underline;*/
+}
+
+.italic {
+  font-style: italic; 
+}
+.quote {
+  font-style: italic; 
+  font-size: 20px;
+  color: grey;
+  margin: 20px;
+  text-align: center;
+}
+.button {
+  background-color:#d4e2e0;
+  font-size:15px;
+  border-radius: 5px;
+  font-family: oran;
+  padding: 5px 10px 5px 10px;
+  box-shadow: -2px 2px 2px;
+  font-family: Helvetica;
+}
+.button:hover {
+  background-color:#84b4e0;
+}
+
+
+form {
+  text-align: left;
+}
+table {
+  padding-bottom: 10px;
+}
+
+.contact {
+  margin-top: 7%; 
+  text-align: left;
+  width: 38%;
+  margin-left: 3%;
+}
+
+.contact h3{
+  margin: 40px;
+  font-size: 17px
+}
+
+.contact h2,
+.contact h3{ 
+margin-left: 3% }
+
+.contactphoto {
+  height: 30vw;
+  width: auto;
+  display: flex;
+  float: right;
+  margin-top: 55px
+
+
+}

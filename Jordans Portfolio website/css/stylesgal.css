@@ -1,0 +1,167 @@
+@font-face {
+  src: url(fonts/Voga-Medium.otf);
+  font-family: voga;
+}
+@font-face {
+  src: url(fonts/tahu.ttf);
+  font-family: tahu;
+}
+
+.frame {
+  height: 250px;
+  width:310px;
+  position: absolute;
+  display: block;
+  padding: 15px;
+  border-radius: 20px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.frame:hover {
+  opacity: .0;
+  /*transition: 1s;*/
+
+}
+.frame:hover {
+  transition: 1s;
+
+}
+
+.frameoverlay {
+
+  height: 250px;
+  width:310px; 
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.frameoverlay:hover {
+  display: block;
+}
+
+.gallery-page{
+  padding-top: 15px;
+  margin-bottom: 10px;
+  border-radius:5px;
+  font-size: 17px;
+  text-align: center;
+  background: #e4e2dc;
+}
+
+.galary {
+  display: inline-block;
+  padding:20px;
+  margin-top: 50px;
+
+}
+
+.galary a {
+  font-size: 30px;
+  font-family: voga;
+}
+
+.title {
+  font-size: 70px;
+  color: #fff;
+  text-align: center; 
+  background-color: #93A6A3;
+  background-position: center; 
+  font-family: voga;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+.slide {
+  height: 275px;
+  width: 375px;
+  float:left;
+  margin:30px;
+  border-radius: 10px;
+  box-shadow: -3px 3px 8px grey;
+
+}
+
+.slide2 {
+  height: 275px;
+  width: 375px;
+  margin:30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 3px 3px 8px grey;
+}
+
+.gallery {
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+.gallery2 { 
+  margin-top: 0px;
+  padding: 40px;
+  margin-bottom: 50px;
+ }
+
+.overlay {
+  text-align: center;
+  font-size: 35px;
+  background-color: #e4e2dc;
+  color: black;
+  height: 40px;
+  width: 325px;
+  margin: 50px;
+  padding: 98px 20px 95px 20px;
+  position:absolute;
+  opacity: 0;
+  border-radius: 10px;
+  transition: .5s ease;
+
+
+}
+
+.overlay:hover {
+  opacity: .7;
+}
+
+.overlay2 {
+  margin-left: 500px;
+  text-align: center;
+  font-size: 35px;
+  background-color: #e4e2dc;
+  color: black;
+  height: 40px;
+  width: 335px;
+  margin: 50px 0px 0px 10px;
+  padding: 98px 20px 95px 20px;
+  position:absolute;
+  opacity: 0;
+  border-radius: 10px;
+  transition: .5s ease;
+}
+
+.overlay2:hover {
+  opacity: .7;
+}
+
+.overlay-preset {
+  text-align: center;
+  font-size: 35px;
+  background-color: #fff;
+  color: black;
+  height: 20px;
+  width: 370px;
+  margin: 65px;
+  padding: 98px 0px 95px 0px;
+  position:absolute;
+  opacity: 0;
+  border-radius: 10px;
+  transition: .5s ease;
+}
+.overlay-preset:hover {
+  opacity: 1;
+}
+
+.collection {
+  float: right;
+}

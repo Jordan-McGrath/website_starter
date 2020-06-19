@@ -1,35 +1,60 @@
 <!DOCTYPE html>
 <html lang="en"> 
 	<head>
-		<title>Jordan McGrath Home</title>
+		<title>Jordan McGrath Photography</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="style.css">
-	</head>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/nav.css">
+		<script src="responsive-switch.min.js"></script>
 	<body>
 		<header>
 			<nav>	
-				<a href="index.html" class="heading">Home</a>
-				<a href="aboutme.html">About Me</a>
-				<logo><img src="img/logojm.png" class="logo"></logo>
-				<a href="photo.html">Gallery</a>
-				<a href="contact.html">Contact</a>
+				<ul>
+					<li><a href="index.html" class="heading"> Home </a></li>
+					<li><a href="aboutme.html">About Me |</a>
+						<ul>
+							<li><a href="presets.html" class="dropdown">Presets</a></li>
+							<li><a href="tutorials.html">Tutorials</a></li>
+						</ul>
+					</li>
+					<li><logo><img src="img/logojm.png" class="logo"></logo></li>
+					<li><a href="gallery.html">Gallery | </a>
+						<ul>
+							<li><a href="aus.html" class="dropdown">Australia</a></li>
+							<li><a href="germany.html" class="">Germany</a></li>
+							<li><a href="uk.html" class="">The UK</a></li>
+							<li><a href="prague.html" class="">Prague</a></li>
+							<li><a href="belgium.html" class="">Belgium</a></li>
+							<li><a href="budapest.html" class="">Budapest</a></li>
+							<li><a href="nature.html" class="">Nature</a></li>
+						</ul>
+					</li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
 			</nav>
 		</header>
-		<main> 
-			<div class ="review">
-				<a href="https://www.instagram.com/mcgrath.and.the.news/" target="blank"><img src="img/camera4.png" class="camera"></a>
-				<p class="review1">Travel.</p>
-				<p class="review2">Snap.</p>
-				<p class="review3">Share.</p>
+		<main class="index"> 
+			<div class="homepage">
+				<h1 class="hometext" alt="Jordan McGrath Photography Liverpool">Jordan McGrath Photography</h1>
+				<h2> Travel. Snap. Explore.</h2>
+				<font color="#fff" size="8px" class="underline"><a href="aboutme.html">Find out more</a></font>
 			</div>
-			<h2 class="jmport">Jordan McGrarth - Porfolio</h2>
 		</main>
+				<img src="img/icons/fuji.png" alt="fujifilm logo"class="brand">
+				<img src="img/icons/peak.png" alt="peak design logo"class="brand">
+				<img src="img/icons/lowe.png" alt="lowepro logo"class="brand">
+				<img src="img/icons/manf.png" alt="manfrotto logo"class="brand">
 	</body>
+	<a href="#"
+      class="rs-link"
+      data-link-desktop="Switch to desktop version"
+      data-link-responsive="Switch to responsive / mobile version"
+      data-always-visible="false"></a>
 	<footer>
 		<ul>
-			<a href="https://www.instagram.com/mcgrath.and.the.news/" target="blank"><img src="img/icons/insta.png" class="icon_bottom">
-			<a href="https://www.linkedin.com/in/jordan-mcgrath-32389924/" target="blank"><img src="img/icons/link.png" class="icon_bottom">
-			<a href="https://www.facebook.com/mcojojo" target="blank"><img src="img/icons/fb.png" class="icon_bottom">
+			<a href="https://www.instagram.com/mcgrath.and.the.news/" target="blank"><img src="img/icons/insta.png" class="icon_bottom"></a>
+			<a href="https://www.linkedin.com/in/jordan-mcgrath-32389924/" target="blank"><img src="img/icons/link.png" class="icon_bottom"></a>
+			<a href="https://www.facebook.com/mcojojo" target="blank"><img src="img/icons/fb.png" class="icon_bottom"></a>
 			<a href="contact.html"><img src="img/icons/contact.png" class="icon_bottom"></a>
 		</ul>
 	</footer>
